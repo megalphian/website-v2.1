@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 description: These are mostly side-projects that are apart from my published/employment work.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false

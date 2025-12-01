@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Robotics and AI researcher | PhD Candidate, <a href='https://uwaterloo.ca/electrical-computer-engineering/'>Electrical and Computer Engineering, University of Waterloo </a>.
+  <b>Postdoctoral Fellow (Vector Faculty Affiliate Researcher) | <a href='https://uwaterloo.ca/electrical-computer-engineering/'>Electrical and Computer Engineering, University of Waterloo </a>.</b>
 
 profile:
   align: right
@@ -20,13 +20,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing my Ph.D. thesis on <b>robot path planning and replanning algorithms for coverage tasks</b>. My current research focuses on combinatorial planning algorithms with approximation guarantees for robots in uncertain environments. 
+I am a Postdoctoral Fellow and Vector Faculty Affiliate Researcher at the University of Waterloo, working with advisors Stephen L. Smith and Baris Fidan. My research focuses on <b>developing generative AI models to plan robot paths for long-horizon coverage and exploration tasks</b>.
 
-More recently, my interests are in using <b>learning-based algorithms for robot planning under uncertainty</b>, mainly reinforcement learning (RL) and diffusion policies.
+I completed my Ph.D. in Electrical and Computer Engineering at the University of Waterloo (2020-2025), where my thesis focused on <b>planning and replanning near-optimal robot coverage paths in partially unknown environments</b>. My research developed efficient coverage planning algorithms for industrial cleaning robots, with a focus on combinatorial planning algorithms with approximation guarantees for robots in uncertain environments.
 
-Before my Ph.D., I obtained my B.Sc. in Electrical Engineering from the University of Alberta. During my undergrad, I worked on side-projects involving robotics, specifically towards automating dangerous tasks. Two notable projects were developed at large student hackathons and won top-three prizes.
+During my Ph.D., I collaborated closely with Avidbots Corp., testing algorithms using real-world robots that encounter environmental uncertainties, and worked with their engineering team on algorithm implementation and testing. I was honored to receive several prestigious awards including the Ontario Graduate Scholarship, UW President's Graduate Scholarship, and QEII Graduate Scholarship.
 
-<b>I am currently looking for postdoctoral employment as a researcher/developer in robotics and AI.</b>
+Before my Ph.D., I obtained my B.Sc. in Electrical Engineering from the University of Alberta (2013-2018), graduating with Distinction (GPA: 3.8/4.0). During my undergrad, I worked on robotics projects aimed at automating dangerous tasks, including two award-winning projects at major student hackathons: RoVR the Explorer (HackED 2019, 3rd Place) and Paulie Blart Security Robot (SFHacks 2018, 1st Place).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 

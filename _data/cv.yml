@@ -2,96 +2,108 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Megnath Ramesh
+    - name: Email
+      value: m5ramesh@uwaterloo.ca
+    - name: Phone
+      value: +1 (587)-589-5810
+    - name: Location
+      value: Waterloo ON, Canada
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Electrical and Computer Engineering
+      institution: University of Waterloo, Waterloo, ON, Canada
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Thesis: Planning and Replanning Near-optimal Robot Coverage Paths in Partially Unknown Environments"
+        - "Advisors: Stephen L. Smith and Baris Fidan"
+        - "Key Courses: Combinatorial Optimization, Computational Geometry, Deep Learning, and Algorithm Design"
+        - title: Awards
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Ontario Graduate Scholarship
+            - UW President's Graduate Scholarship
+            - QEII Graduate Scholarship
+    - title: B.Sc. in Electrical Engineering
+      institution: University of Alberta, Edmonton, AB, Canada
+      year: 2013 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.8/4.0 - Graduated with Distinction"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Fellow (Vector Faculty Affiliate Researcher)
+      institution: University of Waterloo, Waterloo, ON, Canada
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Advisors: Stephen L. Smith and Baris Fidan"
+        - Developing generative AI models to plan robot paths for long-horizon coverage and exploration tasks
+    - title: Ph.D. Researcher
+      institution: University of Waterloo & Avidbots Corp.
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed efficient coverage planning algorithms for industrial cleaning robots
+        - Tested algorithms using real-world robots that encounter environmental uncertainties
+        - Collaborated with the Avidbots engineering team on algorithm implementation and testing
+        - Mentored junior researchers in devising and implementing solutions to difficult robotics problems
+    - title: Graduate Teaching Assistant
+      institution: University of Waterloo
+      year: 2020 - 2025
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - "Courses: Algorithm Design and Analysis, Digital Control Applications, and Analog Control Systems"
+    - title: Application Software Developer (L1 & L2)
+      institution: ScopeAR
+      year: 2018 - 2020
+      description:
+        - Developed features and fixed defects in a cross-platform augmented reality (AR) video calling application
+        - Worked on a range of features, including marker-based AR tracking, guest login system, and cloud-based AR
+    - title: Junior Robotics Developer
+      institution: VEERUM
+      year: 2017 - 2018
+      description:
+        - Developed a pilot project using autonomous robots for generating digital twins of construction facilities
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020-2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Ontario Graduate Scholarship
+        - UW President's Graduate Scholarship
+        - QEII Graduate Scholarship
+    - year: 2018
       items:
-        - Max Planck Medal
+        - Graduated with Distinction, University of Alberta
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/megalphian">RoVR the Explorer</a>
+      year: 2019
+      description:
+        - VR-controlled ground robot with a point cloud stream to visualize its environment
+        - "Achievement: 3rd Place at HackED 2019"
+    - title: <a href="https://github.com/megalphian">Paulie Blart Security Robot</a>
+      year: 2018
+      description:
+        - Autonomous security robot to detect intruders using CNNs
+        - "Achievement: 1st Place at SFHacks 2018"
+        - Featured on Global News
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Robot Path Planning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Coverage planning algorithms
+        - Planning under uncertainty
+        - Combinatorial optimization
+        - Approximation algorithms
+    - title: Generative AI for Robotics
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Deep learning for path planning
+        - Reinforcement learning
+        - Diffusion policies
+        - Long-horizon task planning

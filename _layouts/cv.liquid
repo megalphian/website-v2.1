@@ -7,14 +7,33 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+        {% if page.cv_pdf or page.resume_pdf %}
+          <div style="float: right; display: flex; gap: 1rem; align-items: center;">
+            {% if page.cv_pdf %}
+              <div style="text-align: center;">
+                <a
+                  href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="font-size: 1.5rem;"
+                  ><i class="fa-solid fa-file-pdf"></i
+                ></a>
+                <div style="font-size: 0.7rem; margin-top: 0.25rem;">Full CV</div>
+              </div>
+            {% endif %}
+            {% if page.resume_pdf %}
+              <div style="text-align: center;">
+                <a
+                  href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url}}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="font-size: 1.5rem;"
+                  ><i class="fa-solid fa-file-pdf"></i
+                ></a>
+                <div style="font-size: 0.7rem; margin-top: 0.25rem;">Resume</div>
+              </div>
+            {% endif %}
+          </div>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -53,14 +72,33 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+        {% if page.cv_pdf or page.resume_pdf %}
+          <div style="float: right; display: flex; gap: 1rem; align-items: center;">
+            {% if page.cv_pdf %}
+              <div style="text-align: center;">
+                <a
+                  href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="font-size: 1.5rem;"
+                  ><i class="fa-solid fa-file-pdf"></i
+                ></a>
+                <div style="font-size: 0.7rem; margin-top: 0.25rem;">Full CV</div>
+              </div>
+            {% endif %}
+            {% if page.resume_pdf %}
+              <div style="text-align: center;">
+                <a
+                  href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url}}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="font-size: 1.5rem;"
+                  ><i class="fa-solid fa-file-pdf"></i
+                ></a>
+                <div style="font-size: 0.7rem; margin-top: 0.25rem;">Resume</div>
+              </div>
+            {% endif %}
+          </div>
         {% endif %}
       </h1>
       {% if page.description %}
