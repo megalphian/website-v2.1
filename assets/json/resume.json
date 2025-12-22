@@ -1,12 +1,11 @@
 {
   "basics": {
     "name": "Megnath Ramesh",
-    "label": "Postdoctoral Fellow & Robotics Researcher",
+    "label": "Postdoctoral Fellow (Vector Faculty Affiliate Researcher)",
     "image": "",
     "email": "m5ramesh@uwaterloo.ca",
     "phone": "+1 (587)-589-5810",
     "url": "https://megnath.com",
-    "summary": "Postdoctoral Fellow at University of Waterloo developing generative AI models for robot path planning in coverage and exploration tasks. Ph.D. in Electrical and Computer Engineering with expertise in combinatorial optimization, algorithm design, and robot planning under uncertainty.",
     "location": {
       "city": "Waterloo",
       "countryCode": "CA",
@@ -39,8 +38,7 @@
       "endDate": "",
       "summary": "Developing generative AI models to plan robot paths for long-horizon coverage and exploration tasks.",
       "highlights": [
-        "Advisors: Stephen L. Smith and Baris Fidan",
-        "Vector Faculty Affiliate Researcher"
+        "Advisors: Stephen L. Smith and Baris Fidan"
       ]
     },
     {
@@ -126,62 +124,22 @@
   "awards": [
     {
       "title": "Ontario Graduate Scholarship",
-      "date": "2020-2025",
+      "date": "2023-2025",
       "awarder": "University of Waterloo",
-      "url": "",
-      "summary": "Prestigious graduate scholarship for academic excellence during Ph.D. studies"
+      "url": ""
     },
     {
       "title": "UW President's Graduate Scholarship",
-      "date": "2020-2025",
+      "date": "2021-2025",
       "awarder": "University of Waterloo",
-      "url": "",
-      "summary": "University-wide competitive scholarship for exceptional graduate students"
+      "url": ""
     },
     {
       "title": "QEII Graduate Scholarship",
-      "date": "2020-2025",
+      "date": "2021-2022",
       "awarder": "University of Waterloo",
-      "url": "",
-      "summary": "Queen Elizabeth II Graduate Scholarship in Science and Technology"
-    }
-  ],
-  "publications": [
-    {
-      "name": "BenchNPIN - Benchmarking Non-Prehensile Interactive Navigation",
-      "publisher": "Under review for IEEE conference",
-      "releaseDate": "2025",
-      "url": "",
-      "summary": "N. Zhong, S. Caro, A. Iskander, M. Ramesh, and S. L. Smith"
-    },
-    {
-      "name": "Minimum-Length Coverage Path Planning for Grid Environments with Approximation Guarantees",
-      "publisher": "IEEE Robotics and Automation Letters (RA-L)",
-      "releaseDate": "2025",
-      "url": "",
-      "summary": "M. Ramesh, F. Imeson, B. Fidan, and S. L. Smith"
-    },
-    {
-      "name": "Approximate Environment Decompositions for Robot Coverage Planning using Submodular Set Cover",
-      "publisher": "IEEE Conference on Decision and Control (CDC)",
-      "releaseDate": "2024",
-      "url": "",
-      "summary": "M. Ramesh, F. Imeson, B. Fidan, and S. L. Smith"
-    },
-    {
-      "name": "Anytime Replanning of Robot Coverage Paths for Partially Unknown Environments",
-      "publisher": "IEEE Transactions on Robotics (T-RO)",
-      "releaseDate": "2024",
-      "url": "",
-      "summary": "M. Ramesh, F. Imeson, B. Fidan, and S. L. Smith"
-    },
-    {
-      "name": "Optimal Partitioning of Non-Convex Environments for Minimum Turn Coverage Planning",
-      "publisher": "IEEE Robotics and Automation Letters (RA-L)",
-      "releaseDate": "2022",
-      "url": "",
-      "summary": "M. Ramesh, F. Imeson, B. Fidan, and S. L. Smith"
-    }
+      "url": ""   
+     }
   ],
   "skills": [
     {
@@ -189,11 +147,9 @@
       "level": "Expert",
       "icon": "fa-solid fa-robot",
       "keywords": [
-        "Robot Path Planning",
+        "Robot Motion & Path Planning",
         "Coverage Planning",
-        "Planning under Uncertainty",
-        "Motion Planning",
-        "Multi-robot Systems"
+        "Planning under Uncertainty"
       ]
     },
     {
@@ -203,9 +159,7 @@
       "keywords": [
         "Combinatorial Optimization",
         "Approximation Algorithms",
-        "Computational Geometry",
-        "Graph Theory",
-        "Algorithm Design"
+        "Computational Geometry"
       ]
     },
     {
@@ -215,9 +169,7 @@
       "keywords": [
         "Deep Learning",
         "Reinforcement Learning",
-        "Diffusion Policies",
-        "Generative AI",
-        "Neural Networks"
+        "Diffusion Models"
       ]
     },
     {
@@ -228,8 +180,7 @@
         "Python",
         "C++",
         "ROS (Robot Operating System)",
-        "Augmented Reality",
-        "Cross-platform Development"
+        "Augmented Reality (AR)"
       ]
     }
   ],
@@ -238,10 +189,8 @@
       "name": "Robot Path Planning",
       "icon": "fa-solid fa-route",
       "keywords": [
-        "Coverage Planning",
         "Planning under Uncertainty",
-        "Combinatorial Optimization",
-        "Approximation Algorithms"
+        "Long-horizon Task Planning"
       ]
     },
     {
@@ -249,34 +198,37 @@
       "icon": "fa-solid fa-microchip",
       "keywords": [
         "Deep Learning for Path Planning",
-        "Reinforcement Learning",
         "Diffusion Policies",
-        "Long-horizon Task Planning"
+        "Reinforcement Learning"
       ]
     }
   ],
   "projects": [
     {
+      "name": "Roboracer Sim Racing Competition - CDC 2024",
+      "summary": "Developed autonomous driving algorithms to complete the qualification stage of a racing competition.",
+      "url": "https://github.com/megalphian/f1tenth_ws/tree/sim_league",
+      "date": "2024"
+    },
+    {
       "name": "RoVR the Explorer",
-      "summary": "VR-controlled ground robot with a point cloud stream to visualize its environment. Won 3rd place at HackED 2019.",
+      "summary": "VR-controlled ground robot with a point cloud stream to visualize its environment.",
       "highlights": [
         "VR control system",
         "Point cloud visualization",
         "3rd Place at HackED 2019"
       ],
-      "url": "https://github.com/megalphian",
+      "url": "https://github.com/megalphian/RoVR-the-Explorer",
       "date": "2019"
     },
     {
       "name": "Paulie Blart Security Robot",
-      "summary": "Autonomous security robot to detect intruders using CNNs. Won 1st place at SFHacks 2018 and was featured on Global News.",
+      "summary": "Autonomous security robot to detect intruders using CNNs.",
       "highlights": [
-        "CNN-based intruder detection",
-        "Autonomous navigation",
         "1st Place at SFHacks 2018",
-        "Featured on Global News"
+        "Featured on <a href='https://globalnews.ca/news/4126083/security-robot-intruders-san-francisco-hackathon-alberta-student/'>Global News</a>"
       ],
-      "url": "https://github.com/megalphian",
+      "url": "https://github.com/megalphian/PaulieBlart",
       "date": "2018"
     }
   ]
